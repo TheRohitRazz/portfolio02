@@ -57,19 +57,16 @@ gsap.ticker.lagSmoothing(0);
 // ====================
 // YOUR GSAP ANIMATION
 // ====================
-
 gsap.set('.card', {
-    filter: 'grayscale(100%)',
+    filter: 'grayscale(100%)'
 });
-
 
 let tl = gsap.timeline({
     scrollTrigger: {
         trigger: '#main',
-        // markers: true,
         start: '50% 50%',
         end: '150% 50%',
-        scrub: 1.6,
+        scrub: 1,
         pin: '.card'
     }
 });
@@ -78,24 +75,26 @@ tl.to('.card', {
     rotationY: 90,
     rotationX: 10,
     scale: 1.1,
+    filter: 'grayscale(75%)'
 });
 
 tl.to('.card', {
     rotationY: 180,
     rotationX: 0,
-    filter: 'grayscale(50%)',
     scale: 1.2,
+    filter: 'grayscale(50%)'
 });
 
 tl.to('.card', {
     rotationY: 270,
     rotationX: -10,
     scale: 1.35,
+    filter: 'grayscale(25%)'
 });
 
 tl.to('.card', {
     rotationY: 360,
     rotationX: 0,
-    filter: 'grayscale(0%)',
     scale: 1.5,
+    filter: 'grayscale(0%)'
 });
