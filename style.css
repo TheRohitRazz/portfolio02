@@ -54,6 +54,7 @@ section {
     height: 220px;
     border-radius: 10px;
     overflow: hidden;
+    filter: 'grayscale(0%)
     box-shadow: 1px 35px 40px rgba(0, 0, 0, 0.221);
     transform: translate(-50%, -50%);
 }
@@ -257,7 +258,7 @@ nav {
 
     .na-body {
         flex-direction: column;
-        gap: 40dvh;
+        gap: 35dvh;
         text-align: center;
     }
 
