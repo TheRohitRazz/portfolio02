@@ -57,6 +57,12 @@ gsap.ticker.lagSmoothing(0);
 // ====================
 // YOUR GSAP ANIMATION
 // ====================
+
+gsap.set('.card', {
+    filter: 'grayscale(100%)',
+});
+
+
 let tl = gsap.timeline({
     scrollTrigger: {
         trigger: '#main',
