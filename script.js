@@ -74,27 +74,27 @@ let tl = gsap.timeline({
 tl.to('.card', {
     rotationY: 90,
     rotationX: 10,
-    scale: 1.1,
+    scale: 1.3,
     filter: 'grayscale(75%)'
 });
 
 tl.to('.card', {
     rotationY: 180,
     rotationX: 0,
-    scale: 1.2,
+    scale: 1.5,
     filter: 'grayscale(50%)'
 });
 
 tl.to('.card', {
     rotationY: 270,
     rotationX: -10,
-    scale: 1.35,
+    scale: 1.8,
     filter: 'grayscale(25%)'
 });
 
 tl.to('.card', {
     rotationY: 360,
     rotationX: 0,
-    scale: 1.5,
+    scale: 2,
     filter: 'grayscale(0%)'
 });
