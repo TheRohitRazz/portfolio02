@@ -142,7 +142,7 @@ nav {
 .na-body {
     flex: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 10vw;
 }
@@ -170,6 +170,7 @@ nav {
     flex-direction: column;
     gap: 1.5rem 20px;
     max-width: 35ch;
+    margin-left: 20px;
 }
 
 .na-right p {
