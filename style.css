@@ -15,7 +15,7 @@ body {
 }
 @font-face {
     font-family: "MyFont";
-    src: url("./NeueMontreal-Medium.ttf");
+    src: url("./NeueMontreal-Medium.woff2");
 }
 
 a {
