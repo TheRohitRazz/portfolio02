@@ -145,6 +145,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     gap: 10vw;
+    background: red;
 }
 
 .na-left {
