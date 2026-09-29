@@ -142,10 +142,9 @@ nav {
 .na-body {
     flex: 1;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 10vw;
-    background: red;
 }
 
 .na-left {
