@@ -286,7 +286,7 @@ nav {
         align-items: center;
         gap: 1rem;
         max-width: 100vw;
-        padding: 0;
+        margin-left: 0px;
     }
 
     .na-right p {
